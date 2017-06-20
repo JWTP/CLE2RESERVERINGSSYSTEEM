@@ -1,0 +1,71 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 450px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: transparent;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    font-size:18;
+    padding: 10px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
+
+table {
+
+    color: white;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 99%;
+
+ }
+
+td, th {
+    color: white;
+    border: 1px solid transparent;
+    text-align: left;
+    padding: 8px;
+ }
+
+ tr:nth-child(even) {
+     background-color: transparent;
+ }
+
+body{
+    background-image: url("../images/Stadhuis-Delft-website1jpg.jpg");
+
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: Red;
+}
+
+form{
+    color: white;
+}
